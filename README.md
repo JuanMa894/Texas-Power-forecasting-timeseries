@@ -1,4 +1,4 @@
-![power grid](https://github.com/JuanMa894/Texas-Power-forecasting-timeseries/tree/main/Data/960x0.jpg)
+![power grid](Data/960x0.jpg)
 
 # Texas-Power-forecasting-timeseries
 
