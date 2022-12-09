@@ -44,10 +44,10 @@ With more time, we could extend our model to help predict black-swan type events
 
 
 ## Repository Structure
-'''
+```
 ├── Data                               <- Collection of provided data, including images
 ├── Notebooks            	             <- Individual team members' working Jupyter notebooks.
 ├── .gitignore                         <- Rules to ignore by Github.
 ├── README.md                          <- This file.
 └── Final_Notebook.ipynb   	           <- Jupyter Notebook containing exploration and analysis of our data.
-'''
+```
