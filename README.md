@@ -26,10 +26,10 @@ To find the best model, we ran multiple grid searches that found the optimal hyp
 
 Our model successfully matched the ground truth data in both the training and test sets. The final model outperformed our initial baseline according to RMSE, which was 245 baseline and 220 final. Based on the p-values of all our exogenous features in our best daily model, we found that the maximum temperature, snow level, and precipitation were frequently statistically significant. This demonstrates its importance as an indicator for predicting total interchange values.  We created a custom function  to evaluate the accuracy of our model which produced a score of 0.71 (rounding to two significant digits).
 
-![Model performance plot]('Data/modelPlot.jpg')
+![Model performance plot](Data/modelPlot.jpg)
 
 Our model was also able to forecast a projection for the next year:
-![2023 forecast plot]('Data/forecastPlot.jpg')
+![2023 forecast plot](Data/forecastPlot.jpg)
 
 
 # Conclusions
@@ -38,7 +38,7 @@ Although the data seemed quite noisy, we were able to show that patterns in gene
 
 ## Next steps
 
-![Snowy covered houses in Texas]('Data/snowyTexas.jpeg')
+![Snowy covered houses in Texas](Data/snowyTexas.jpeg)
 
 With more time, we could extend our model to help predict black-swan type events like the 2021 winter storm crisis, to help prevent the grid from going down for long periods of time. The model could be used to create automated adaptive switching to the most robust energy source or other measures to meet a sudden spike in demand. Then, we would like to create a generalized model to be applied to other regions beyond Texas.
 
